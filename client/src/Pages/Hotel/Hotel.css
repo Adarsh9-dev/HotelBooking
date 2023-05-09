@@ -1,0 +1,274 @@
+.HotelVellore {
+    position: relative;
+}
+.Hotel {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    flex-direction: column;
+}
+.HotelContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5rem;
+    
+    align-items: center;
+}
+.HotelHead {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.HotelHeadLeft {
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    margin-bottom: 0.7rem;
+    flex: 3;
+}
+.HotelHeadLeftHeading {
+    font-size: 24px;
+}
+.HotelHeadLeft>:nth-child(2) {
+    font-size: 13px;
+}
+.HotelHeadLeft>:nth-child(3) {
+    font-size: 16px;
+    color: var(--lightBlue);
+}
+.HotelHeadLeft>:nth-child(4) {
+    font-size: 16px;
+    color: green;
+}
+.HotelHeadRightButton {
+    width: 150px;
+    border-radius: 5px;
+}
+.HotelHeadRight {
+    flex:0.5;
+}
+.HotelImage {
+    display: flex;
+    width: 1024px;
+    display: inline-block;
+    /* overflow: scroll; */
+}
+.HotelImgContainer {
+    width: 330px;
+    height: 260px;
+    margin: 0px 7px 5px 0px;
+    cursor: pointer;
+}
+.HotelBook {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.HotelBookLeft {
+    flex: 3;
+}
+.HotelBookRight {
+    flex: 1;
+}
+.HotelBookLeftHead {
+    font-size: 22px;
+    margin-bottom: 1rem;;
+    color: var(--lightBlue)
+}
+.HotelInfo {
+    margin-left: 3rem;
+}
+.HotelInfoList {
+    font-size: 16px;
+    padding: 3px;
+    color: rgb(110, 110, 110);
+}
+.HotelBookRight {
+    background-color: #e9f2ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    border-radius: 5px;
+}
+.HotelBookRightHead {
+    color: #464b54;
+    font-size: 20px;
+}
+.HotelBookRightDesc {
+    font-size: 14px;
+}
+.HotelRoomPrice {
+    font-size: 30px;
+    font-weight: bold;
+}
+.HotelBookRightPrice {
+    font-size: 20px;
+}
+.HotelBookRightBtn {
+    border-radius: 5px;
+}
+.ClickableImage {
+
+    align-items:center;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    
+    background-color: rgba(211, 211, 211,0.7);
+    
+    
+}
+.ClickableImageContainer {
+    position: absolute;
+
+}
+.TopClickableImage {
+    width: 65rem;
+    height: 40rem;
+    border: 2px solid white;
+    box-shadow: 1px 1px 10px 0px black;
+    border-radius: 10px;
+}
+.arrowCross {
+    position: absolute;
+    right: 40px;
+    top: 40px;
+    cursor: pointer;  
+    font-size: 40px;
+}
+.arrowLeft {
+    position: absolute;
+    left:40px;
+    font-size: 5rem;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.arrowRight {
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    font-size: 5rem;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 100%;
+}
+.topVellore {
+    position: absolute;
+    top:0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+
+}
+.roomVellore {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.roomPopof {
+    position: relative;
+    width: 520px;
+    background-color:white;
+    padding: 20px;
+}
+.room {
+    padding: 20px;
+    display: flex;
+    gap: 1rem;
+}
+.roomLeft {
+    flex: 3;
+}
+.roomRight {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    
+}
+.roomRightSelect {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 0.4rem;
+    justify-content: right;
+}
+.roomRightSelectInput {
+    width: 40px;
+}
+.roomAvalable {
+    text-align: right;
+    margin-right: 3px;
+    color: green;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.roomAvalableNo {
+    font-weight: bold;
+}
+.roomLeft {
+    display: flex;
+    gap: 0.2rem;
+    flex-direction: column;
+}
+.roomHead,.roomPeopleNo {
+    font-weight: bold;
+}
+.roomPeople {
+    font-size: 12px;
+}
+.roomDetails {
+    color: rgb(101, 101, 101)
+}
+.roomLeftPrice {
+    font-size: 14px;
+    font-weight: bold;
+    color: var(--blue)
+}
+.roomCrossIcon {
+    position: absolute;
+    /* top:0; */
+    cursor: pointer;
+    z-index: 10;
+    font-size: 20px;
+    top:0;
+    margin-top: 0.5rem;
+    margin-left: -0.3rem;
+    /* margin-top: -9rem;
+    margin-right: -30rem; */
+    /* right: 0; */
+}
+.totalPrice {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.totalPriceLeft {
+    flex: 1;
+    color: #357444;
+    font-weight: bold;
+}
+.totalPriceRight {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.4rem;
+}
+.detailedExplain {
+    font-size: 13px;
+}
+.totalpriceRightValue {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--blue)
+}

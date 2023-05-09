@@ -1,0 +1,31 @@
+.email {
+    padding: 3rem;
+    background-color: var(--blue);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 3rem;
+    align-items: center;
+    gap: 1.5rem;
+}
+.emailInput {
+    width: 300px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    margin-right: 0.7rem;
+    border-radius: 5px;
+}
+.emailSub {
+    padding: 12px 15px;
+    background-color: var(--lightBlue);
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: 500;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}

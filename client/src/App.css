@@ -1,0 +1,20 @@
+:root {
+    --blue:#003580;
+    --lightBlue:#0067b7;
+}
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif
+}
+.btn {
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--lightBlue);
+    color: white;
+}

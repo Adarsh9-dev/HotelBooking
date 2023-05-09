@@ -1,0 +1,34 @@
+.footer {
+    background-color: #e3e3e3;
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    
+}
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    gap: 3rem;
+}
+.footerListContainer {
+    display: flex;
+    justify-content: space-between;
+}
+.footerList {
+    list-style-type: none;
+    padding: 0.5rem;
+    font-size: 14px;
+    color: var(--blue);
+    cursor: pointer;
+    transition: 0.2s;
+}
+.footerList:hover {
+    color: orangered
+}
+.copyRight {
+    color: var(--blue);
+    font-size: 12px;
+}

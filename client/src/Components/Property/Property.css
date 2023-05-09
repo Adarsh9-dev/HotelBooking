@@ -1,0 +1,42 @@
+.propertyImage {
+    width: 11rem;
+    height: 8rem;
+    border-radius: 0.7rem 0.7rem 0 0;
+    box-shadow: 1px 1px 10px 0px grey;
+    
+}
+.propSectionInner {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+}
+.propSectionInner>:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.6rem;
+}
+.propSectionInner>:nth-child(3) {
+    font-size: 14px;
+    font-weight: 500;
+    color: grey;
+}
+.propertyContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    width: 100%;
+    max-width: 1024px;
+    gap: 2rem;
+    margin: 2rem;
+}
+.property {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.propSection {
+    display: flex;
+    gap: 2rem;;
+}

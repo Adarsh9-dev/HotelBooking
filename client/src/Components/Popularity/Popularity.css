@@ -1,0 +1,57 @@
+.PopularityImage {
+    width: 15.2rem;
+    height: 15rem;
+    box-shadow: 1px 1px 6px 0px grey;
+}
+.PInnerContainer {
+    display: flex;
+    flex-direction:column;
+    gap: 0.3rem;
+}
+.PInner {
+    display: flex;
+    gap: 1rem;
+    object-fit: cover;
+}
+.popularityContainer {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+    /* align-items: center; */
+}
+.popularity {
+    display: flex;
+    justify-content: center;
+}
+.PInnerContainer>:nth-child(2) {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
+.PInnerContainer>:nth-child(3) {
+    font-size: 14px;
+}
+.PInnerContainer>:nth-child(3) {
+    font-size: 14px;
+    color: grey;
+}
+.PInnerContainer>:nth-child(4) {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 0.3rem;
+}
+.PButton {
+    border: none;
+    background-color:var(--blue);
+    color: white;
+    padding: 5px;
+    margin-right: 7px;
+}
+.PInnerContainer>:nth-child(5) {
+    font-size: 14px;
+    margin-bottom: 3rem;
+    color: var(--blue)
+}

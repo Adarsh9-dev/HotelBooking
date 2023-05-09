@@ -1,0 +1,36 @@
+
+.InnerContainer {
+    display:flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 0px black;
+    padding: 2rem;
+    align-items: center;
+    gap: 0.7rem;
+    border-radius: 11px;
+}
+.btn {
+    background-color: #1f76e2;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+}
+.Container {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.LRInput {
+    width: 300px;
+    padding: 8px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+}

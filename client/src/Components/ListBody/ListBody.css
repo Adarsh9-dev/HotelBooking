@@ -1,0 +1,124 @@
+.ListBody {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    /* position: relative; */
+}
+.hs-date {
+    position: absolute;
+    top: 4rem;
+    left: -2rem;
+    border-top: 5px solid var(--blue);
+    border-radius: 3px;
+    box-shadow: 1px 1px 10px 0px  gray;
+}
+.ListBodyContainer {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ListLeft {
+    background-color: #ffaf2a;
+    flex: 1;
+    padding: 1rem;
+    position: sticky;
+    top: 1rem;
+    border-radius: 0.7rem;
+    margin-left: -4rem;
+    height: fit-content
+}
+
+.ListLeftText {
+    color: rgb(88, 87, 87);
+    font-size: 22px;
+    margin-bottom: 1rem;
+}
+
+.ListLeftDesc {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    margin-bottom: 0.7rem;
+    position: relative;
+}
+.ListLeftDesc>label {
+    font-size: 14px;
+}
+.ListLeftDesc>input {
+    border:none;
+    font-size: 16px;
+    padding: 10px 8px;
+    outline: none;
+}
+.ListLeftDesc>span {
+    font-size: 16px;
+    padding: 10px 8px;
+    background-color: white;
+    cursor:pointer;
+}
+.OptionText {
+    font-size: 14px;
+    
+}
+.OptionListContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.OptionList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.7rem;
+}
+.ListInput {
+    width: 65px;
+    height: 28px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    outline: none;
+    padding-left: 10px;
+}
+.OptionListContainer>span {
+    font-size: 14px;
+    color:rgb(78, 77, 77)
+}
+.ListLeftButton {
+    width: 100%;
+    padding: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    background-color: var(--lightBlue);
+    color: white;
+    /* border: 1px solid var(--blue) */
+}
+.ListLeftButtonContainer {
+    margin-top: 1rem;
+}
+
+.ListRight {
+    flex: 3;
+    margin-left: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.listRightBodyNull {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.listRightFont {
+    /* border: 1px solid black;
+    border-radius: 100%; */
+    font-size: 4rem;
+    
+}

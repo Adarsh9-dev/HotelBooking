@@ -1,0 +1,31 @@
+.successData {
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.InnerFont {
+    font-size: 10rem;
+}
+.innerSuccessData {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 5px solid green;
+    color:green;
+    padding: 50px;
+    border-radius: 25px;;
+}
+.InnerText {
+    font-size: 1.5rem;
+}
+.innerErrorData {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    border: 5px solid red;
+    color:red;
+    padding: 50px;
+    border-radius: 25px;;
+}

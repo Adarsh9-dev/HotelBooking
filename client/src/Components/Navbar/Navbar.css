@@ -1,0 +1,49 @@
+.nav-container {
+    height: 80px;
+    background-color: var(--blue);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    color: white;
+    font-size: 1.2rem;
+    font-weight:600;
+    cursor: pointer
+}
+.n-button {
+    padding: 7px 10px;
+    border: none;
+    color: var(--blue);
+    outline:none;
+    cursor: pointer;
+    transition:0.125s;
+}
+.n-button:hover {
+    background-color: rgb(209, 227, 234);
+    text-decoration: underline;
+}
+.nav-button {
+    display: flex;
+    gap: 1.5rem;
+}
+.loginName {
+    border: 1px solid white;
+    padding: 10px 15px;
+    background-color: #19498c;
+    border-radius: 20px;
+    color: white;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.logo1 {
+    font-size: 1rem;
+}

@@ -1,0 +1,80 @@
+.CardImage {
+    width: 13rem;
+    height: 12rem;
+    flex: 1;
+}
+.HotelCard {
+    display: flex;
+    gap: 1rem;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px grey;
+    margin-bottom: 1.6rem;
+}
+.ListContainer {
+    display: flex;
+    flex-direction:column;
+    flex: 2;
+    gap: 0.5rem;
+}
+.ListPrice {
+    flex: 1;
+}
+.ListContainer > span {
+    font-size: 14px;
+}
+.ListRightHead {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color: var(--lightBlue)
+}
+.ListContainer>:nth-child(3) {
+    background-color: green;
+    color: white;
+    padding: 4px;
+    max-width:fit-content;
+    border-radius: 5px;
+}
+.ListContainer>:nth-child(4) {
+    font-weight: bold;
+}
+.ListCancel {
+    font-weight: bold;
+    color: #15792c;
+}
+.ListMessage {
+    color: #619a6e;
+}
+.ListPrice {
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.ListPriceBottom {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: right;
+}
+.ListPriceBottom>:nth-child(1) {
+    font-size: 30px;
+}
+.ListPriceBottom>:nth-child(2) {
+    font-size: 14px;
+    color: gray;
+}
+.ListPriceButton {
+    border-radius: 5px;
+}
+.ListPriceTop {
+    display: flex;
+    justify-content: space-between;
+}
+.ListPriceTopButton {
+    padding: 5px;
+    font-weight: bold;
+    background-color: var(--blue);
+    border: none;
+    color: white;
+}

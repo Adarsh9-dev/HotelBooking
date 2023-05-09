@@ -1,0 +1,42 @@
+.frameContainer {
+    position: relative;
+}
+
+.frameImage {
+    border-radius: 1rem;
+    width: 19rem;
+    height: 13rem;
+    box-shadow: 1px 1px 10px 0px gray;
+}
+
+.framer {
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+    margin-top: 4rem;
+    justify-content: center;
+    width: 100%;
+    max-width: 1024px;
+    object-fit: cover;
+}
+.fContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.innerFrameSection {
+    position:absolute;
+    bottom: 1px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+.innerFrameSection>:nth-child(1) {
+    font-size: 36px;
+    font-weight: bold;
+}
+.innerFrameSection>:nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+}
